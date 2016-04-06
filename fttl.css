@@ -90,6 +90,10 @@ html {
 	-webkit-text-stroke-color: #333;
 }
 
+.tile-1 ul {
+	margin-left: -3%;
+}
+
 .tile-1 {
 	background-color: rgba(255,255,255,0.4);
 	margin: 150px 10% 0% 10%;
@@ -97,15 +101,33 @@ html {
 	height: 600px;
 }
 
-li {
+.tile-1 h4 {
+	margin-bottom: 10%;
+	font-weight: normal;
+}
+
+.tile-1 li {
 	float: left;
-	margin-right: 8%;
+	margin-right: 1%;
+	background-color: #efe;
+	width: 10%;
+	height: 40px;
+	padding-left: 3%;
 }
 
-li:last-child {
+.tile-1 li:last-child {
 	float: right;
 }
 
-li:nth-last-child(2) {
+.tile-1 li:nth-last-child(2) {
 	float: right;
+}
+
+.tile-1-content {
+	height: 100%;
+	width: 100%;
+}
+
+.tile-1-content ul li img {
+	float: left;
 }
