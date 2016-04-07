@@ -29,3 +29,11 @@ function choose_image() {
 function change_image(){
 	image_change = setTimeout(choose_image, 2500);
 }
+
+var thriveGallery = {};
+
+thriveGallery.trackClick = function(n,t,i){
+    return thriveTrack("Thrive Galleries", "Link Click", n), i == "_blank" ? window.open(t.href):setTimeout(
+        function(){
+            window.location = t.href}, 200), !1}, thriveGallery.trackOpen = function(n){thriveTrack("Thrive Galleries", "Open", n)
+}
