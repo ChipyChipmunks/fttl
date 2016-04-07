@@ -9,8 +9,8 @@ body {
 }
 
 .container {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 18%;
+	margin-right: 18%;
 	max-width: 100%;
 	height: 3000px;
 	background-color: rgba(255,255,255,.5);
@@ -105,7 +105,6 @@ body {
 	float: left;
 	width: 10%;
 	max-height: 100%;
-	background-color: 
 }
 
 .tile-1 li:first-child {
@@ -124,12 +123,12 @@ body {
 	font-family: helvetica;
 	font-style: normal;
 	max-height: 100%;
-	margin-left: 30%;
+	text-align: center;
 }
 
 .main-nav {
 	width: 100%;
-	height: 10%;
+	height: 6%;
 }
 
 .tile-1-content {
@@ -140,6 +139,11 @@ body {
 
 .tile-1-content img {
 	margin: 7px;
+	opacity: 0.7;
+}
+
+.tile-1-content img:hover {
+	opacity: 1;
 }
 
 .img-row {
@@ -168,4 +172,22 @@ body {
 
 .yellow {
 	background: #fbd627;
+}
+
+.tours-and-products {
+	width: 90%;
+	margin: 25px 5% 0px 5%;
+	height: 400px;
+	background-color: rgba(255,255,255,0.6);
+}
+
+.banner {
+	width: 100%;
+	height: 15%;
+}
+
+.tours-and-products h2 {
+	font-family: helvetica;
+	font-style: normal;
+	text-align: center;
 }

@@ -29,5 +29,5 @@ function choose_image() {
 }
 
 function change_image(){
-	image_change = setTimeout(choose_image, 2500);
+	image_change = setTimeout(choose_image, 10000);
 }
