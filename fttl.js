@@ -25,9 +25,8 @@ function choose_image() {
         current_image = 0;
         document.body.style.backgroundImage = img_array[3];
     }
-    change_image();
 }
 
 function change_image(){
-	image_change = setTimeout(choose_image, 10000);
+	choose_image();
 }

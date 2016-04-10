@@ -9,10 +9,10 @@ body {
 }
 
 .container {
-	margin-left: 18%;
-	margin-right: 18%;
+	margin-left: 19%;
+	margin-right: 19%;
 	max-width: 100%;
-	height: 3000px;
+	height: 3050px;
 	background-color: rgba(255,255,255,.5);
 }
 
@@ -88,7 +88,7 @@ body {
 	color: #fff;
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: #333;
-	margin-bottom: 125px;
+	margin-bottom: 150px;
 }
 
 .tile-1 {
@@ -190,4 +190,45 @@ body {
 	font-family: helvetica;
 	font-style: normal;
 	text-align: center;
+	padding-top: 1%;
+}
+
+.product {
+	float: left;
+	height: 85%;
+	width: 24%;
+	background-color: rgba(255,255,255,0.5);
+	margin-left: 0.75%;
+}
+
+.what-to-expect {
+	width: 90%;
+	height: 700px;
+	margin: 6% 5% 0% 5%;
+	background-color: red;
+	float: left;
+}
+
+.banner {
+	width: 100%;
+	height: 10%;	
+}
+
+.what-to-expect iframe {
+	width: 100%;
+	height: 90%;
+}
+
+.footer {
+	width: 90%;
+	height: 320px;
+	margin: 8% 5% 0% 5%;
+	background-color: rgba(255,255,255,0.8);
+	float: left;
+}
+
+.footer li {
+	float: left;
+	width: 25%;
+	margin-left: 5%;
 }
