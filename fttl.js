@@ -3,10 +3,10 @@ var image_change;
 var current_image = 1;
 var img_array = new Array();
 
-img_array[0] = "url('resources/orange_sunset.JPG')";
-img_array[1] = "url('resources/Queenstown-evening.JPG')";
-img_array[2] = "url('resources/Queenstown-aerial-in-winter-dusk.JPG')";
-img_array[3] = "url('resources/trees.JPG')";
+img_array[0] = "url('resources/images/orange_sunset.JPG')";
+img_array[1] = "url('resources/images/Queenstown-evening.JPG')";
+img_array[2] = "url('resources/images/Queenstown-aerial-in-winter-dusk.JPG')";
+img_array[3] = "url('resources/images/trees.JPG')";
 
 function choose_image() {
 
