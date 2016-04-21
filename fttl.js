@@ -38,7 +38,8 @@ img_array[1] = "url('resources/images/Queenstown-evening.JPG')";
 img_array[2] = "url('resources/images/Queenstown-aerial-in-winter-dusk.JPG')";
 img_array[3] = "url('resources/images/trees.JPG')";
 
-function choose_image() {
+
+function choose_image() { 
 
     if (current_image == 0) {
     	current_image = 1;
