@@ -15,6 +15,8 @@ var buttonSeven  = document.querySelector('#vehicles_button');
 // Find all sections
 var allSections = document.querySelectorAll('.tab');
 
+allSections[0].style.display = 'block';
+
 // Attach click event listeners to the buttons
 home_button.onclick = changeTab;
 gallery_button.onclick = changeTab;
