@@ -13,7 +13,7 @@ var buttonSix  = document.querySelector('#contact_button');
 var buttonSeven  = document.querySelector('#vehicles_button');
 
 var moreTours = document.querySelector('#more-tours');
-var hiddenTours = document.querySelector('.hidden');
+var hiddenTours = document.querySelectorAll('.hidden');
 var more = true;
 
 // Find all sections
@@ -58,7 +58,21 @@ function choose_image() {
 }
 
 function more_tours(){
-    console.log("hello");
+
+    if (more == true){
+        for (var i = 0; i < hiddenTours.length; i++){
+            hiddenTours[i].style.display = 'block';
+        }      
+        console.log(hiddenTours);
+        more = false;
+    }
+    else {
+        for (var i = 0; i < hiddenTours.length; i++){
+            hiddenTours[i].style.display = 'none';
+        }      
+        console.log(hiddenTours);
+        more = true;
+    }
 }
 
 function change_image(){
