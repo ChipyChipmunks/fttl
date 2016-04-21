@@ -12,8 +12,13 @@ var buttonFive  = document.querySelector('#staff_button');
 var buttonSix  = document.querySelector('#contact_button');
 var buttonSeven  = document.querySelector('#vehicles_button');
 
+var moreTours = document.querySelector('#more-tours');
+var hiddenTours = document.querySelector('.hidden');
+var more = true;
+
 // Find all sections
 var allSections = document.querySelectorAll('.tab');
+
 
 allSections[0].style.display = 'block';
 
@@ -25,6 +30,8 @@ about_button.onclick = changeTab;
 staff_button.onclick = changeTab;
 contact_button.onclick = changeTab;
 vehicles_button.onclick = changeTab;
+
+moreTours.onclick = more_tours;
 
 img_array[0] = "url('resources/images/orange_sunset.JPG')";
 img_array[1] = "url('resources/images/Queenstown-evening.JPG')";
@@ -48,6 +55,10 @@ function choose_image() {
         current_image = 0;
         document.body.style.backgroundImage = img_array[3];
     }
+}
+
+function more_tours(){
+    console.log("hello");
 }
 
 function change_image(){

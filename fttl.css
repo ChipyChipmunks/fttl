@@ -12,7 +12,7 @@ body {
 	margin-left: 19%;
 	margin-right: 19%;
 	max-width: 100%;
-	height: 3050px;
+	height: 2050px;
 	background-color: rgba(255,255,255,.5);
 }
 
@@ -73,24 +73,6 @@ body {
 	font-size: 1.5em;
 }
 
-.page-title {
-	font-size: 3em;
-	font-family: helvetica;
-	color: #fff;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #333;
-}
-
-.page-subtitle{
-	font-size: 2em;
-	font-family: helvetica;
-	font-variant: solid;
-	color: #fff;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #333;
-	margin-bottom: 150px;
-}
-
 button {
 	width: 100%;
 }
@@ -98,12 +80,9 @@ button {
 section {
 	width: 100%;
 	display: none;
+	margin: auto;
 }
-
-ul li {
-	display: inline-block;
-}
-
+\
 #section-one { 
 	background-color: red;
 	display: block;
@@ -119,10 +98,19 @@ ul li {
 #section-four 	{	background-color: green; }
 #section-five 	{	background-color: blue; }
 
+.home{
+	text-align: center;
+	margin: 10% 10% 10% 10%;
+}
+
 .home-banner {
 	background-color: #fbd627;
 	width: 100%;
 	height: 50px;
+}
+
+.home_section {
+	margin-top: 50px;
 }
 
 .gallery-item {
@@ -156,6 +144,11 @@ ul li {
 	width: 90%;
 	max-height: 1000px;
 	margin: 10% 5% 0% 5%;
+}
+
+.tile-1-content {
+	margin: 10px 0% 0% 0%;
+	display: inline-block;
 }
 
 .tile-1 ul {
@@ -277,6 +270,7 @@ ul li {
 
 .tile-1-content {
 	width: 100%;
+	margin-bottom: 50px;
 	background: rgba(255,255,255,0.5);
 }
 
@@ -340,51 +334,60 @@ ul li {
 	background: rgba(251, 214, 39, 0.6);
 }
 
+.hidden {
+	display: none;
+}
+
 .tours_and_products {
 	width: 90%;
-	height: 500px;
-	margin: 150px 5% 0% 5%;
+	margin: 0px 5% 0px 5%;
 	background-color: rgba(255,255,255,0.6);
 }
 
-.tour_item {
-	width: 30%;
-	height: 100%;
-	background-color: rgba(255,255,255,0.9);
-	float: left;
-	margin: 0% 1% 0% 1%;
+.tour-container {
+	width: 100%;
+	height: 120px;
+	background-color: #f1f1f1;
+	border: 1px solid #333;
+	margin-bottom: 5px;
 }
 
-.tour_item img {
-	max-width: 100%;
+.tour-container img {
 	max-height: 100%;
+	max-width: max-height;
+	margin: auto;
+	float: left;
 }
 
-#item_1 {
-	background: url(resources/images/helecopter.jpg) no-repeat center center fixed;
+.description {
+	width: 100%;
+	height: 100%;
+}
+
+.description h1 {
+	font-size: 1.5em;
+	margin: 0%;
+}
+
+.description h2 {
+	font-size: 1em;
+	margin: auto;
 }
 
 .what-to-expect {
 	width: 90%;
-	height: 700px;
-	margin: 6% 5% 0% 5%;
-	background-color: red;
-	float: left;
-}
-
-.banner {
-	width: 100%;
-	height: 10%;
+	margin: 0% 5% 5% 5%;
 }
 
 .what-to-expect iframe {
 	width: 100%;
 	height: 90%;
+	max-height: 500px;
 }
 .footer {
-	width: 90%;
-	height: 320px;
-	margin: 8% 5% 0% 5%;
+	width: 100%;
+	height: 428px;
+	margin: auto;
 	background-color: rgba(255,255,255,0.8);
 	float: left;
 }
